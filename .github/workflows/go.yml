@@ -26,3 +26,7 @@ jobs:
 
     - name: Build
       run: go build -v .
+  
+    - name: GolangCI-Lint Action
+      uses: actions-contrib/golangci-lint@v0.1.0
+
