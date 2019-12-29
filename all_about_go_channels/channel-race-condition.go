@@ -26,6 +26,7 @@ func main() {
 
 	// value of i should be 1000
 	fmt.Println("value of i after 1000 operations is", i)
-        fmt.Println("But i may be less than expected 1000 since there is a race condition involved here")
-}
+	fmt.Println("\nBut i may be less than expected 1000 since there is a race condition involved here")
 
+	fmt.Println("You can check for race condition using 'go run -race <program.go>'")
+}
